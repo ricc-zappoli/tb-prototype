@@ -15,9 +15,9 @@ global.iota = new IOTA({ provider: 'https://node.iota.moe:443' });
 global.db = new SQLite3.Database('log.db');
 
 // Global variables
-global.myPort = 81;
-global.myName = 'http://localhost:' + myPort;
-global.mySeed = 'COQLKSDWGGSWQNCVYALRIXPNSGNZ9IAJDHMCTPDLRWBXXCJRPACTLIRXP9DJNQNFOOYVI9LAYDHJDIHNW';
+global.myPort = ***;
+global.myName = '***' + myPort;
+global.mySeed = '***';
 global.minWeightMagnitude = 14;
 global.depth = 3;
 
