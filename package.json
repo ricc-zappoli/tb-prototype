@@ -1,0 +1,27 @@
+{
+  "name": "tb-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riccardoricc/tb-prototype.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/riccardoricc/tb-prototype/issues"
+  },
+  "homepage": "https://github.com/riccardoricc/tb-prototype#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "iota.lib.js": "^0.4.7",
+    "mam.client.js": "git+https://github.com/iotaledger/mam.client.js.git",
+    "request-promise": "^4.2.2",
+    "sqlite3": "^4.0.2",
+    "timerjobs": "^1.4.2"
+  }
+}
