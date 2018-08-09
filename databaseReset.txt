@@ -1,0 +1,11 @@
+.open log.db
+
+DROP TABLE Sales;
+DROP TABLE Purchases;
+DROP TABLE Streams;
+DROP TABLE Subscriptions;
+
+CREATE TABLE Sales ("item" TEXT, "amount" INTEGER, "from" TEXT, "to" TEXT, "timestamp" INTEGER, "address" TEXT PRIMARY KEY, "value" INTEGER);
+CREATE TABLE Purchases ("item" TEXT, "amount" INTEGER, "from" TEXT, "to" TEXT, "timestamp" INTEGER, "address" TEXT PRIMARY KEY, "value" INTEGER);
+CREATE TABLE Streams ("seed" TEXT PRIMARY KEY, "amount" INTEGER, "index" INTEGER);
+CREATE TABLE Subscriptions ("root" TEXT PRIMARY KEY, "amount" INTEGER);
